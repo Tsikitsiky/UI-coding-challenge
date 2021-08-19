@@ -5,42 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Serpent VPN</title>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header-site">
-      <div class="header-site__container">
+      <div class="header-site__container container">
         <h1 class="header-site__heading">
           <img src="assets/logo.svg" alt="logo" />
         </h1>
         <nav class="header-site__navigation">
           <ul>
-            <li class="header-site__navigation-list">Features</li>
-            <li class="header-site__navigation-list">Apps</li>
-            <li class="header-site__navigation-list">Our Team</li>
-            <li class="header-site__navigation-list">Customer Support</li>
+            <li class="header-site__navigation--list">Features</li>
+            <li class="header-site__navigation--list">Apps</li>
+            <li class="header-site__navigation--list">Our Team</li>
+            <li class="header-site__navigation--list">Customer Support</li>
           </ul>
         </nav>
-        <button aria-label="try it for free">Try it for free</button>
+        <button class="try-it-free" aria-label="try it free">
+          Try it free
+        </button>
       </div>
     </header>
     <main>
       <header class="main-header">
-        <div class="main-header__container">
-          <img src="assets/logo_cloud.svg" alt="logo cloud" />
-          <div class="main-header__text-container">
-            <h2 class="main-header__heading">The World's Best VPN</h2>
-            <p class="main-header__paragraph">
-              Our product is changing how individuals use personal VPN.
-              Traditionnal personal VPNs allow users to connect only to servers
-              that the VPN provider owns, and distribute an IP address ffrom a
-              pool that is also owned by VPN provider. Serpent VPN is the next
-              evolution of personal VPN and instead allows users to utilize
-              their own server, and connect to it from our state-of-the-art
-              applications
-            </p>
-          </div>
+        <div class="main-header__container container">
+          <section class="masthead">
+            <img src="assets/logo_cloud.svg" alt="logo cloud" />
+            <div class="main-header__text-container">
+              <h2 class="main-header__heading">The World's Best VPN</h2>
+              <p class="main-header__paragraph">
+                Our product is changing how individuals use personal VPN.
+                Traditionnal personal VPNs allow users to connect only to
+                servers that the VPN provider owns, and distribute an IP address
+                ffrom a pool that is also owned by VPN provider. Serpent VPN is
+                the next evolution of personal VPN and instead allows users to
+                utilize their own server, and connect to it from our
+                state-of-the-art applications
+              </p>
+            </div>
+          </section>
           <section>
-            <!-- <span class="a11y">list of features</span> -->
             <ul class="main-header__features">
               <li class="main-header__features--list infrastructure">
                 <h2>Lock down cloud infrastructure</h2>
@@ -67,9 +71,55 @@
           </section>
         </div>
       </header>
-      <section></section>
-      <section></section>
+      <section>
+        <div class="security__container container">
+          <img src="assets/secure.svg" alt="A Padlock image" />
+          <header class="security__header">
+            <h2>Secure Access point</h2>
+          </header>
+          <p></p>
+          <ul>
+            <li class="security__list"></li>
+            <li class="security__list"></li>
+            <li class="security__list"></li>
+            <li class="security__list"></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="advantages__container container">
+          <header class="advantages__header">The advantages are endless</header>
+          <p></p>
+          <ul>
+            <li class="advantages__list"></li>
+            <li class="advantages__list"></li>
+            <li class="advantages__list"></li>
+            <li class="advantages__list"></li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer__container container">
+        <p class="a11y">Site map</p>
+        <nav>
+          <ul class="footer-nav">
+            <li class="footer-nav__list">products</li>
+            <li class="footer-nav__list">resources</li>
+            <li class="footer-nav__list">company</li>
+            <li class="footer-nav__list">support</li>
+            <li class="footer-nav__list">
+              social:
+              <p class="a11y">See on</p>
+              <ul>
+                <li class="icon icon-facebook">Facebook</li>
+                <li class="icon icon-twitter">Twitter</li>
+                <li class="icon icon-linkedin">linkedin</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

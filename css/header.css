@@ -1,0 +1,37 @@
+.header-site {
+  background-color: 'f5f6f8';
+}
+
+.header-site__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.try-it-free {
+  display: none;
+}
+
+.header-site__navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+  .header-site__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .try-it-free {
+    display: block;
+    background-color: 'orange';
+  }
+
+  .header-site__navigation ul > li {
+    padding-inline: 16px;
+  }
+}
